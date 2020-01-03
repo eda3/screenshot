@@ -17,7 +17,6 @@ archives_dir = Path("./archives")
 print(archives_dir.resolve())
 
 for f in p.glob("スクリーン*png"):
-    pass
     # ファイルの移動開始
     src_path = f.resolve()
     dst_path = archives_dir.resolve() / f
